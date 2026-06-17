@@ -1,105 +1,138 @@
-*{
-    margin: 0;
-    padding: 0;
-}
-body{
-  font-family: "Young Serif", serif;
-  font-weight: 400;
-  font-style: normal;
-}
-.container{
-    padding: 50px;
+* {
+    margin: 0px;
+    padding: 0px;
 }
 
-.section-one{
-    background-color: black;
-    padding: 20px;
-    color: white;
+body {
+    font-family: "Gabarito", sans-serif;
 }
 
-.section-one__contact{
-    background-color: none;
-    margin-top: 10px;
-    display: inline-block;
-}
-
-.section-one__name{
-    font-size: 60px;
-}
-
-.section-one__role{
-    font-size: 30px;
-}
-
-.section-one,.section-two,.section-three,.section-four,.section-five{
-    margin-top: 20px;
-}
-
-.section-one__desc,.section-two__desc,.section-three__desc,.section-four__desc,.section-five__desc{
-    margin-top: 10px;
-}
-
-.section-five{
-    background-color: black;
-    color: white;
-    padding: 20px;
-}
-
-.section-five__title a{
-    color: skyblue;
-}
-
-.section-three li,.section-four li{
-    list-style: none;
-}
-
-.section-three{
-    display: inline-block;
-    background-color: #6462fd;
-    color: black;
-    padding: 20px;
-    height: 200px;
-    border-radius: 10px;
-    vertical-align: top;
-}
-
-.section-four{
-    display: inline-block;
-    background-color: #fe7517;
-    color: black;
-    padding: 20px;
-    height: 200px;
-    border-radius: 10px;
-    vertical-align: top;
-}
-
-.contact-form{
-    margin-top: 20px;
-}
-
-.contact-form__input,.contact-form__textarea,.contact-form__button,{
-    margin-top: 10px;
-}
-
-.contact-form__input{
+.Navbar {
     padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: solid black 1px;
+    gap: 10px;
+    align-items: center;
+}
+
+.Navbar__S1_Title {
+    color: #A435F0;
+}
+
+.Navbar__s2 {
+    padding: 20px;
+    border: solid black 1px;
+    border-radius: 30px;
+    width: 60%;
+    display: flex;
+    gap: 10px;
+}
+
+.Navbar__s2 input {
     border: none;
+    font: 16px;
+    width: 100%;
+}
+
+.Navbar__s2 input:focus {
+    outline: none;
+}
+
+.Navbar__s3 {
+    display: flex;
+    gap: 5px;
+}
+
+.categories {
+    display: flex;
+    padding: 10px;
+    justify-content: space-around;
     border-bottom: solid black 1px;
 }
 
-.contact-form__textarea{
+.categories p {
+    background-color: #A435F0;
+    color: white;
+    padding: 20px;
+    border-radius: 30px;
+
+}
+
+.sale-image img {
+    width: 100%;
+}
+
+.Recommended {
     padding: 10px;
-    border: none;
-    border: solid black 1px;
 }
 
-.contact-form__submit{
-    padding-top: 10px;
-    padding-bottom: 10px;
+.Recommended__container {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+    flex-wrap: wrap;
+}
+
+.course__card {
+    width: 350px;
+}
+
+.course__card img {
+    width: 100%;
+    height: 50%;
+}
+
+.topics {
+    padding: 10px;
+}
+
+.topics__container {
+    display: flex;
+    gap: 10px;
+    margin-top: 10px;
+    flex-wrap: wrap;
+}
+
+.topics__container p {
+    flex-grow: 1;
+    border: solid black 2px;
+    padding: 10px;
+    flex-basis: 30%;
+}
+
+.Popular{
+    padding: 10px;
+    margin-top: 10px;
+}
+
+.Popular__container{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 10px;
+    justify-content: space-between;
+}
+
+.Footer{
+    padding: 20px;
+    background-color: black;
+    color: white;
+}
+
+.Footer1{
+    padding: 1px;
+    display: flex;
+}
+
+.Footer1 p{
+    padding-top: 2px;
     padding-left: 20px;
-    padding-right: 20px;
-    background-color: orangered;
-    color: black;
-    border: none;
+    margin: 10px;
 }
 
+.Footer2{
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
